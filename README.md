@@ -1,4 +1,4 @@
-Valida datos de tarjetas de crédito
+﻿Valida datos de tarjetas de crédito
 Track: Common Core
 Curso: JS Deep Dive: Crea tu propia librería usando JavaScript
 Unidad: Producto final
@@ -6,7 +6,7 @@ La función debe recibir un elemento DOM que contenga <input>s con los siguiente
 
 cn (Card Number): El número de la tarjeta de crédito
 exp (Expiry Date): Fecha de expiración
-cvv (Card Verification Value): Código de validación de 3 dígitos
+cD (Card Verification Value): Código de validación de 3 dígitos
 name: Nombre completo como aparece en la tarjeta
 Ejemplo
 <form>

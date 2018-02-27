@@ -14,7 +14,7 @@
       });
     }, false);
   })();
-
+//Trayendo elementos DOM a JS
 const form = document.querySelector('form');
 const arrayOfElements = Array.from(form);
 let cn = arrayOfElements.find(cn => cn.id === "cn");
@@ -22,6 +22,7 @@ let name = arrayOfElements.find(name => name.id === "name");
 let cD = arrayOfElements.find(cD => cD.id === "cD");
 
 console.log(cD)
+//Validacion TDC
 cn.addEventListener('keyup', e =>{
     let cnValue = cn.value;
     let cnValueInArray = cnValue
@@ -57,7 +58,7 @@ cn.addEventListener('keyup', e =>{
         return cn.className = "noValide form-control";
     }
 });
-
+//Validacion nombre
 name.addEventListener('keyup', e =>{
     let nameValue = name.value;
     console.log(nameValue)
@@ -71,6 +72,7 @@ name.addEventListener('keyup', e =>{
         }
     }
 });
+//Validacion de Digito verificador
 cD.addEventListener('keyup', e =>{
     let cDValue = cD.value;
     function validatecD (number){
